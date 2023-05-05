@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Project Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sub-banner">
+        <div class="navbar">
+           <img src="images/LOGO web.PNG" class="logo">
+           <ul>
+               <li><a href="HomePage.html">Games</a></li>
+               <li><a href="About Us.html">About us</a></li>
+               <li><a href="Contact Us.html">Contact us</a></li>
+           </ul>
+        </div>
+    <h1>Contact Us</h1>
+    </div>
+   <section class="contact-us">
+       <div class="row">
+           <div class="contact-col">
+               <div>
+                <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+961 70255718</h5>
+                        <p>Only whatsapp</p>
+                    </span>
+               </div>
+               <div>
+                <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>elie.work7@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+               </div>      
+           </div>
+           <div class="contact-col">
+             <form action="form-handler.php" method="POST">
+                 <input type="text" name="name" placeholder="Enter your name" required>
+                 <input type="email" name="email" placeholder="Enter email address" required>
+                 <input type="text" name="subject" placeholder="Enter your subject" required>
+                 <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                 <button type="submit">Send Message</button>
+             </form>
+
+
+
+           </div>
+
+       </div>
+   </section>
+</body>
+</html>
